@@ -99,5 +99,5 @@ const slider = new Slider({
     direction: 'x',
     time: 1000,
     autoplay: true,
-    interval: 1000
+    interval: 3000
 });
