@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: black;
+    color: white;
+}
+
+.slider {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.slider__slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(37, 36, 36);
+    font-size: 100px;
+}
+
+.slider__btns {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+button {
+    background: rgba(42, 188, 42, 0.746);
+    font-size: 30px;
+    padding: 10px 30px;
+    color: white;
+}
